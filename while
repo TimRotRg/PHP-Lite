@@ -1,0 +1,8 @@
+<?php
+echo "while-пока(англ.)";
+$dano = 3;
+$predel = 9;
+while ($dano < $predel) {
+  echo $dano;
+  $dano++;
+}
