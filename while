@@ -1,4 +1,5 @@
 <?php
+echo "Первое изменение"ж
 echo "while-пока(англ.)";
 $dano = 3;
 $predel = 9;
