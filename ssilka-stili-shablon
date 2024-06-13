@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Стилизованная Ссылка</title>
+<style>
+  .styled-link {
+    color: #0645ad; /* Цвет ссылки */
+    text-decoration: none; /* Убрать подчеркивание */
+    font-weight: bold; /* Жирное начертание */
+    font-size: 18px; /* Размер шрифта */
+  }
+
+  .styled-link:hover {
+    color: #0b6abf; /* Цвет при наведении */
+    text-decoration: underline; /* Подчеркивание при наведении */
+  }
+
+  .styled-link:active {
+    color: #03396c; /* Цвет при нажатии */
+  }
+
+  .styled-link:visited {
+    color: #0b2e59; /* Цвет посещенной ссылки */
+  }
+</style>
+</head>
+<body>
+
+<a href="https://example.com" class="styled-link">Перейти на example.com</a>
+
+</body>
+</html>
